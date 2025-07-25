@@ -118,6 +118,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATIC_ROOT = '/weather/templates/weather/'
+STATIC_ROOT = './weather/templates/weather/'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
